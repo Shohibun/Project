@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    background-color: white;
+}
+.atas
+{
+    border: 2px solid black;
+    margin: 15px;
+}
+.border
+{
+    font-size: 50px;
+}
+#atas1
+{
+    background-color: aqua;
+}
+#atas2
+{
+    background-color: red;
+}
+#atas3
+{
+    background-color: brown;
+}
