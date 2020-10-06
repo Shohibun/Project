@@ -1,0 +1,1 @@
+Jadi kita ingin membuat sebuah mockup tentang UMKM, yang didalamnya atau fiturnya berisi informasi tentang prosuk, hasil penjualan, harga barang, dan lainnya.
