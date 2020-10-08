@@ -1,2 +1,2 @@
 # My Program
-Repository untuk menyimpan program saya.
+Repository untuk menyimpan program project web saya
