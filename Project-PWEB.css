@@ -9,8 +9,24 @@ body
     background-image: image(backgroundatas.jpg);
 }
 
+.sabda
+{
+    text-align: right;
+}
+
+.judul
+{
+    text-align: left;
+}
+
+.heading
+{
+    text-align: center;
+}
+
 .pendahuluan
 {
+    text-align: left;
     border: 2px solid black;
     margin: 20px;
 }
