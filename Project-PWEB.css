@@ -3,14 +3,25 @@
     margin: 0;
     padding: 0;
 }
-
 body
 {
-    background-image: image(backgroundatas.jpg);
+     background-color: peachpuff;
+     width: 100%;
+
+
+}
+.madutop 
+{
+    background-image: url(bg_madu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px;
+
 }
 
 .sabda
 {
+    color: white;
     text-align: right;
 }
 
