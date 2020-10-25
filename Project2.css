@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+     background-color: #ffffff;
+     width: 100%;
+
+
+}
+.madutop 
+{
+    background-image: url(bg_madu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.sabda
+{
+    color: white;
+    text-align: right;
+}
+
+.home
+{
+    width: 6%;
+    padding: 10px;
+    margin: 5% auto;
+    border-radius: 48%;
+    text-align: center;
+    background-color: palevioletred;
+}
+
+.heading
+{
+    width: 18%;
+    padding: 10px;
+    margin: 10% auto;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15%;
+}
+
+.pembelian
+{
+    width: 6%;
+    padding: 10px;
+    margin: 5% auto;
+    text-align: center;
+    text-decoration: underline;
+    background-color: white;
+}
+
+.judul
+{
+    text-align: center;
+    width: 15%;
+    margin: 10% auto;
+}
+
+.isi
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin: 20%;
+    padding: 10px;
+    width: 60%;
+}
+
