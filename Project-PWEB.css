@@ -5,7 +5,7 @@
 }
 body
 {
-     background-color: peachpuff;
+     background-color: #ffffff;
      width: 100%;
 
 
@@ -15,7 +15,7 @@ body
     background-image: url(bg_madu.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1600px;
+    background-size: 100%;
 
 }
 
@@ -25,29 +25,61 @@ body
     text-align: right;
 }
 
-.judul
+.beli
 {
-    text-align: left;
+    width: 6%;
+    padding: 10px;
+    margin: 5% auto;
+    border-radius: 48%;
+    text-align: center;
+    background-color: palevioletred;
 }
 
 .heading
 {
+    width: 18%;
+    padding: 10px;
+    margin: 10% auto;
     text-align: center;
+    background-color: #ffffff;
+    border-radius: 15%;
+}
+
+.cover
+{
+    border: 2px solid black;
+    padding: 0%;
+    margin: 5%;
+}
+
+.judul h3
+{
+    text-align: center;
+    background-color: palevioletred;
+    width: 15%;
+    margin: 10% auto;
+    border-radius: 10%;
+}
+
+.judul img
+{
+    text-align: left;
+}
+
+.pendahuluan img
+{
+    border-radius: 10%;
 }
 
 .pendahuluan
 {
-    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
     border: 2px solid black;
-    margin: 20px;
-}
-
-#pendahuluan1
-{
-    background-color: pink;
-}
-
-#pendahuluan2
-{
-    background-color: pink;
+    background-color: palevioletred;
+    margin: 20%;
+    padding: 20px;
+    width: 60%;
 }
