@@ -32,7 +32,7 @@ body
     margin: 5% auto;
     border-radius: 48%;
     text-align: center;
-    background-color: palevioletred;
+    background-color: deeppink;
 }
 
 .heading
@@ -48,8 +48,7 @@ body
 .pembelian
 {
     width: 6%;
-    padding: 10px;
-    margin: 5% auto;
+    margin: 0% auto;
     text-align: center;
     text-decoration: underline;
     background-color: white;
@@ -57,9 +56,10 @@ body
 
 .judul
 {
-    text-align: center;
+    text-align: right;
     width: 15%;
-    margin: 10% auto;
+    height: 5%;
+    margin: 4% auto;
 }
 
 .isi
@@ -69,8 +69,9 @@ body
     align-items: center;
     justify-content: center; 
     text-align: center; 
-    margin: 20%;
-    padding: 10px;
+    margin: 1% auto;
+    padding: 0%;
     width: 60%;
+    height: 0%;
 }
 
