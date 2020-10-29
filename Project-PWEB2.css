@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body
 {
      background-color: #ffffff;
@@ -10,68 +11,134 @@ body
 
 
 }
+
 .madutop 
 {
     background-image: url(bg_madu.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    min-height: 500px;
+}
 
+.gambar1
+{
+    padding-top: 1%;
+    margin-left: 15%;
 }
 
 .sabda
 {
     color: white;
     text-align: right;
+    padding: 5%;
 }
 
 .home
 {
-    width: 6%;
+    color: #ffffff;
+    width: 5%;
     padding: 10px;
-    margin: 5% auto;
-    border-radius: 48%;
+    margin: auto;
+    margin-bottom: 4%;
+    border-radius: 20px;
     text-align: center;
-    background-color: deeppink;
+    background-color:  deeppink;
 }
 
 .heading
 {
-    width: 18%;
+    border: 2px solid black;
+    width: 19%;
     padding: 10px;
-    margin: 10% auto;
+    margin: auto;
+    border-radius: 20px;
     text-align: center;
     background-color: #ffffff;
-    border-radius: 15%;
+    position: relative;
+    top: 63px;
 }
 
 .pembelian
 {
     width: 6%;
     margin: 0% auto;
-    text-align: center;
+    margin-top: 10%;
     text-decoration: underline;
     background-color: white;
 }
 
-.judul
+#office
 {
-    text-align: right;
-    width: 15%;
-    height: 5%;
-    margin: 4% auto;
+    margin: auto;
+    margin-left: 55.4%;
+    margin-top: 5%;
 }
 
-.isi
+#isi_office
 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center; 
     text-align: center; 
-    margin: 1% auto;
-    padding: 0%;
+    margin: auto;
+    margin-right: 17.3%;
     width: 60%;
-    height: 0%;
 }
 
+#isi_office img
+{
+    position: relative;
+    right: 15.6%;
+}
+
+#whatsapp
+{
+    margin: auto;
+    margin-left: 54.3%;
+    margin-top: 5%;    
+}
+
+#isi_whatsapp
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin: auto;
+    margin-right: 20%;
+    width: 60%; 
+}
+
+#isi_whatsapp img
+{
+    position: relative;
+    right: 15.5%;
+}
+
+#shopee
+{
+    margin: auto;
+    margin-left: 55.2%;
+    margin-top: 5%;
+}
+
+#isi_shopee
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin: auto;
+    margin-right: 21.5%;
+    width: 60%;     
+}
+
+#isi_shopee img
+{
+    position: relative;
+    right: 12%;
+}
