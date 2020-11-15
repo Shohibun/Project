@@ -13,10 +13,11 @@ body
 
 .madutop 
 {   
-    background-image: url('gambar/bg_madu.jpg');
+    background-image: url(gambar/bg_madu.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 70%;
+    opacity: 80%;
 }
 
 .gambar1
@@ -42,7 +43,7 @@ body
     margin-bottom: 1%;
     border-radius: 20px;
     text-align: center;
-    background-color:  deeppink;
+    background-color:  rgba(255, 200, 20, 0.918);
     border-bottom: 2px solid rgba(0, 0, 0, 0.322);
 }
 
@@ -95,7 +96,7 @@ body
 {
     color: #ffffff;
     text-align: center;
-    background-color: deeppink;
+    background-color:rgba(255, 200, 20, 0.750);
     padding: 1%;
     width: 20%;
     height: 10%;
@@ -108,7 +109,7 @@ body
 {
     color: #ffffff;
     text-align: center;
-    background-color: deeppink;
+    background-color: rgba(255, 200, 20, 0.750);
     padding: 1%;
     width: 20%;
     height: 10%;
@@ -123,9 +124,8 @@ body
     padding-top: 2%;
     padding-right: 2%;
     color: #ffffff;
-    align-items: center;
     border: none;
-    background-color: deeppink;
+    background-color: rgba(255, 200, 20, 0.750);
     position: relative;
     right: 15%;
     
@@ -138,9 +138,8 @@ body
     padding-top: 2%;
     padding-right: 2%;
     color: #ffffff;
-    align-items: center;
     border: none;
-    background-color: deeppink;
+    background-color: rgba(255, 200, 20, 0.750);
     position: relative;
     right: 15%;
 }
@@ -176,8 +175,98 @@ body
     padding-right: 10%;
     padding-bottom: 4%;
 }
-.copy
+
+.home
 {
-    width: 100%;
-    height: 50px;
+    color: #ffffff;
+    width: 5%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    text-align: center;
+    background-color:  rgba(255, 200, 20, 0.750);
+}
+.pembelian
+{
+    width: 6%;
+    margin: 0% auto;
+    margin-top: 10%;
+    text-decoration: underline;
+    background-color: white;
+}
+
+#office
+{
+    margin: auto;
+    margin-left: 55.4%;
+    margin-top: 5%;
+}
+
+#isi_office
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin: auto;
+    margin-right: 17.3%;
+    width: 60%;
+}
+
+#isi_office img
+{
+    position: relative;
+    right: 15.6%;
+}
+
+#whatsapp
+{
+    margin: auto;
+    margin-left: 54.3%;
+    margin-top: 5%;    
+}
+
+#isi_whatsapp
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin: auto;
+    margin-right: 20%;
+    width: 60%; 
+}
+
+#isi_whatsapp img
+{
+    position: relative;
+    right: 15.5%;
+}
+
+#shopee
+{
+    margin: auto;
+    margin-left: 55.2%;
+    margin-top: 5%;
+}
+
+#isi_shopee
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin: auto;
+    margin-right: 21.5%;
+    width: 60%;     
+}
+
+#isi_shopee img
+{
+    position: relative;
+    right: 12%;
 }
