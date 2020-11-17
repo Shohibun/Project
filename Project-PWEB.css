@@ -13,11 +13,10 @@ body
 
 .madutop 
 {   
-    background-image: url(gambar/bg_madu.jpg);
+    background-image: url('gambar/bg_madu.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 70%;
-    opacity: 80%;
 }
 
 .gambar1
@@ -31,7 +30,6 @@ body
     color: white;
     text-align: right;
     padding: 5%;
-
 }
 
 .beli
@@ -43,7 +41,7 @@ body
     margin-bottom: 1%;
     border-radius: 20px;
     text-align: center;
-    background-color:  rgba(255, 200, 20, 0.918);
+    background-color:  deeppink;
     border-bottom: 2px solid rgba(0, 0, 0, 0.322);
 }
 
@@ -71,6 +69,7 @@ body
     width: 100%;
     height: 600px;
 }
+
 .cover2
 {
     display:grid;
@@ -81,11 +80,13 @@ body
     width: 100%;
     height: 600px;
 }
+
 #gong
 {
     justify-self: center;
     padding-top: 20%;
 }
+
 #klanceng
 {
     justify-self: center;
@@ -96,7 +97,7 @@ body
 {
     color: #ffffff;
     text-align: center;
-    background-color:rgba(255, 200, 20, 0.750);
+    background-color: deeppink;
     padding: 1%;
     width: 20%;
     height: 10%;
@@ -105,11 +106,12 @@ body
     border-radius: 6px;
     
 }
+
 #judul2
 {
     color: #ffffff;
     text-align: center;
-    background-color: rgba(255, 200, 20, 0.750);
+    background-color: deeppink;
     padding: 1%;
     width: 20%;
     height: 10%;
@@ -117,6 +119,7 @@ body
     margin-left: 53%;
     border-radius: 6px;
 }
+
 #pendahuluan1
 {
     width: 70%;
@@ -124,13 +127,15 @@ body
     padding-top: 2%;
     padding-right: 2%;
     color: #ffffff;
+    align-items: center;
+    justify-content: left;
     border: none;
-    background-color: rgba(255, 200, 20, 0.750);
+    background-color: deeppink;
     position: relative;
     right: 15%;
     
-
 }
+
 #pendahuluan2
 {
     width: 70%;
@@ -138,8 +143,10 @@ body
     padding-top: 2%;
     padding-right: 2%;
     color: #ffffff;
+    align-items: center;
+    justify-content: left;
     border: none;
-    background-color: rgba(255, 200, 20, 0.750);
+    background-color: deeppink;
     position: relative;
     right: 15%;
 }
@@ -149,19 +156,23 @@ body
     display:grid;
     grid-template-columns: 52% auto;
 }
+
 .icon2
 {   
     display:grid;
     grid-template-columns: 52% auto;
 }
+
 #back1
 {
     justify-self: right;
 }
+
 #back2
 {
     justify-self: right;;
 }
+
 #shopping1
 {
     justify-self: right;
@@ -176,97 +187,8 @@ body
     padding-bottom: 4%;
 }
 
-.home
+.copy
 {
-    color: #ffffff;
-    width: 5%;
-    padding: 10px;
-    margin: auto;
-    margin-bottom: 4%;
-    border-radius: 20px;
-    text-align: center;
-    background-color:  rgba(255, 200, 20, 0.750);
-}
-.pembelian
-{
-    width: 6%;
-    margin: 0% auto;
-    margin-top: 10%;
-    text-decoration: underline;
-    background-color: white;
-}
-
-#office
-{
-    margin: auto;
-    margin-left: 55.4%;
-    margin-top: 5%;
-}
-
-#isi_office
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-    text-align: center; 
-    margin: auto;
-    margin-right: 17.3%;
-    width: 60%;
-}
-
-#isi_office img
-{
-    position: relative;
-    right: 15.6%;
-}
-
-#whatsapp
-{
-    margin: auto;
-    margin-left: 54.3%;
-    margin-top: 5%;    
-}
-
-#isi_whatsapp
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-    text-align: center; 
-    margin: auto;
-    margin-right: 20%;
-    width: 60%; 
-}
-
-#isi_whatsapp img
-{
-    position: relative;
-    right: 15.5%;
-}
-
-#shopee
-{
-    margin: auto;
-    margin-left: 55.2%;
-    margin-top: 5%;
-}
-
-#isi_shopee
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-    text-align: center; 
-    margin: auto;
-    margin-right: 21.5%;
-    width: 60%;     
-}
-
-#isi_shopee img
-{
-    position: relative;
-    right: 12%;
+    width: 100%;
+    height: 50px;
 }
