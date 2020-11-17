@@ -4,11 +4,44 @@
     padding: 0;
     font-family: calibri;
 }
-
 body
 {
     overflow-x:hidden;
     background-color: #ffffff;
+}
+.logo
+{
+    display: flex;
+    width: 140px;
+    height: auto;
+    margin-left: 45%;
+}
+.navi
+{
+    background:  rgba(255, 200, 20, 0.750);
+    height: 50px;
+}
+a{
+    font-size: 20px;
+    padding: 14px 10px}
+ul{
+    padding:14px;
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none; 
+    display: inline;
+}
+li a
+{
+    background: rgba(83, 173, 9, 0.767); 
+    color:#d4d4d4;
+}
+li a:hover
+{
+    background: #f8f8f8;
+    color:rgb(7, 7, 7);
 }
 
 .madutop 
@@ -16,49 +49,32 @@ body
     background-image: url(gambar/bg_madu.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100% 70%;
+    background-size: 100%;
+    height: 700px;
     opacity: 80%;
+    margin-bottom: 5%;
 }
-
-.gambar1
-{
-    position: relative;
-    left: 6%;
-}
-
 .sabda
 {
     color: white;
+    text-shadow: 3px 2px 1px black;
     text-align: right;
-    padding: 5%;
-
+    padding: 18%;
 }
-
-.beli
-{
-    color: #ffffff;
-    width: 5%;
-    padding: 1%;
-    margin: auto;
-    margin-bottom: 1%;
-    border-radius: 20px;
-    text-align: center;
-    background-color:  rgba(255, 200, 20, 0.918);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.322);
-}
-
 .heading
 {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.322);
+    position: absolute;
+    right: 35%;
+    top: 75%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.322);
     width: 23%;
     padding: 3%;
     margin: auto;
     border-radius: 20px;
     text-align: center;
     background-color: #ffffff;
-    position: relative;
     color: black;
-    top: 5%;
+    text-shadow:none;
 }
 
 .cover1
@@ -268,5 +284,5 @@ body
 #isi_shopee img
 {
     position: relative;
-    right: 12%;
+    right: 7%;
 }
