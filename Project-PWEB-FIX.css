@@ -4,11 +4,13 @@
     padding: 0;
     font-family: calibri;
 }
+
 body
 {
     overflow-x:hidden;
     background-color: #ffffff;
 }
+
 .logo
 {
     display: flex;
@@ -16,28 +18,37 @@ body
     height: auto;
     margin-left: 45%;
 }
+
 .navi
 {
     background:  rgba(255, 200, 20, 0.750);
     height: 50px;
 }
-a{
+
+a
+{
     font-size: 20px;
-    padding: 14px 10px}
-ul{
+    padding: 14px 10px
+}
+
+ul
+{
     padding:14px;
     display: flex;
     justify-content: center;
 }
+
 li{
     list-style: none; 
     display: inline;
 }
+
 li a
 {
     background: rgba(83, 173, 9, 0.767); 
     color:#d4d4d4;
 }
+
 li a:hover
 {
     background: #f8f8f8;
@@ -54,6 +65,7 @@ li a:hover
     opacity: 80%;
     margin-bottom: 5%;
 }
+
 .sabda
 {
     position: relative;
@@ -63,6 +75,7 @@ li a:hover
     text-align: right;
     padding: 18%;
 }
+
 .heading
 {
     position: absolute;
@@ -89,6 +102,7 @@ li a:hover
     width: 100%;
     height: 600px;
 }
+
 .cover2
 {
     display:grid;
@@ -99,11 +113,13 @@ li a:hover
     width: 100%;
     height: 600px;
 }
+
 #gong
 {
     justify-self: center;
     padding-top: 20%;
 }
+
 #klanceng
 {
     justify-self: center;
@@ -123,6 +139,7 @@ li a:hover
     border-radius: 6px;
     
 }
+
 #judul2
 {
     color: #ffffff;
@@ -135,6 +152,7 @@ li a:hover
     margin-left: 53%;
     border-radius: 6px;
 }
+
 #pendahuluan1
 {
     width: 70%;
@@ -149,6 +167,7 @@ li a:hover
     
 
 }
+
 #pendahuluan2
 {
     width: 70%;
@@ -168,37 +187,95 @@ li a:hover
     display:grid;
     grid-template-columns: 52% auto;
 }
+
 .icon2
 {   
     display:grid;
     grid-template-columns: 52% auto;
 }
+
 #back1
 {
     justify-self: right;
 }
+
 #back2
 {
     justify-self: right;;
 }
-.home
-{
-    color: #ffffff;
-    width: 5%;
-    padding: 10px;
-    margin: auto;
-    margin-bottom: 4%;
-    border-radius: 20px;
-    text-align: center;
-    background-color:  rgba(255, 200, 20, 0.750);
-}
-.pembelian
+
+#vid
 {
     width: 6%;
-    margin: 0% auto;
+    padding: 1%;
+    margin: auto;
     margin-top: 10%;
-    text-decoration: underline;
-    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 200, 20, 0.750);
+}
+
+.covergong
+{
+    border: 4px solid black;
+}
+
+#judulgong
+{
+    width: 11%;
+    padding: 1%;
+    margin-left: 16.8%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 200, 20, 0.750);
+}
+
+#vidgong
+{
+    width: 35%;
+    height: 35%;
+    margin-left: 5%;
+}
+
+.coverklanceng
+{
+    border: 4px solid black;
+}
+
+#judulklanceng
+{
+    width: 11%;
+    padding: 1%;
+    margin-left: 16.8%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 200, 20, 0.750);
+}
+
+#vidklanceng
+{
+    width: 35%;
+    height: 35%;
+    margin-left: 5%;
+}
+
+.pembelian
+{
+    width: 10%;
+    padding: 1%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 200, 20, 0.750);
 }
 
 #office
