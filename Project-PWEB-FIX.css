@@ -228,8 +228,8 @@ li a:hover
 
 #judulgong
 {
-    width: 18%;
-    padding: 1%;
+    width: 25%;
+    padding: 1.5%;
     padding-left: 5%;
     padding-right: 5%;
     margin-left: 50%;
@@ -251,8 +251,8 @@ li a:hover
 
 #judulklanceng
 {
-    width: 20%;
-    padding: 1%;
+    width: 23%;
+    padding: 1.1%;
     margin-left: 40%;
     margin-top: 3%;
     border-radius: 6px;
@@ -263,7 +263,7 @@ li a:hover
 
 #vidklanceng
 {
-    width: 55%;
+    width: 54%;
     padding: 5%;
     margin-left: 20%;
 }
