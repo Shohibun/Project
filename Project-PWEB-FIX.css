@@ -2,355 +2,308 @@
 {
     margin: 0;
     padding: 0;
-    font-family: calibri;
+    font-family: Calibri;
 }
 
-body
+.Navigasi
 {
-    overflow-x:hidden;
-    background-color: #ffffff;
+    background: #fdcb6e;
+    position: fixed;
+    width: 100%;
+    font-size: 18px;
+    z-index: 5;
 }
 
-.logo
+.Navigasi li
 {
-    display: flex;
-    width: 140px;
-    height: auto;
-    margin-left: 45%;
+    list-style: none;
+    overflow: hidden;
+    color: #d35400;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
 }
 
-.navi
+.Navigasi li:hover
 {
-    background:  rgba(255, 200, 20, 0.750);
-    height: 50px;
-}
-
-a
-{
-    font-size: 20px;
-    padding: 14px 10px
-}
-
-ul
-{
-    padding:14px;
-    display: flex;
-    justify-content: center;
-}
-
-li{
-    list-style: none; 
-    display: inline;
-}
-
-li a
-{
-    background: rgba(83, 173, 9, 0.767); 
-    color:#d4d4d4;
-}
-
-li a:hover
-{
-    background: #f8f8f8;
-    color:rgb(7, 7, 7);
-}
-
-.madutop 
-{   
-    background-image: url(gambar/bg_madu.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    height: 700px;
-    opacity: 80%;
-    margin-bottom: 5%;
-}
-
-.sabda
-{
-    position: relative;
-    left: 10%;
+    background: #f1c40f;
+    border-radius: 5px;
     color: white;
-    text-shadow: 3px 2px 1px black;
+    cursor: pointer;
+}
+
+.Navigasi a
+{
+    text-decoration: none;
+    color: #d35400;
+}
+
+.InnerNavigasi
+{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.BodyNavigasi1
+{
+    width: 50%;
+}
+
+.Logo
+{
+    width: 80px;
+}
+
+.BodyNavigasi2
+{
+    float: right;
     text-align: right;
-    padding: 18%;
+    width: 50%;
 }
 
-.heading
+.Active
 {
+    background: #f1c40f;
+}
+
+.BodyNavigasi3
+{
+    display: none;
+    text-align: right;
+    width: 50%;
+}
+
+.Content
+{
+    display: none;
+    padding: 10px;
+}
+
+.Content li
+{
+    padding: 10px;
+    display: block;
+}
+
+.MaduTop
+{
+    background-image: url('gambar/bg_madu.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Background1
+{
+    background: rgb(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+.Sabda
+{
+    color: white;
     position: absolute;
-    right: 35%;
-    top: 75%;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.322);
-    width: 23%;
-    padding: 3%;
-    margin: auto;
-    border-radius: 20px;
-    text-align: center;
-    background-color: #ffffff;
-    color: black;
-    text-shadow:none;
+    right: 2%;
+    bottom: 20%;
+    text-align: right;
+    width: 600px;
 }
 
-.cover1
+.Background2
 {
-    display:grid;
-    grid-template-columns: 40% auto;
-    padding: 3%;
-    padding-left: 12%;
-    margin:auto;
+    background: #f9ca24;
+    padding: 20px;
+}
+
+.Judul
+{
+    color: white;
+    text-align: center;
+}
+
+.Cover
+{
+    background: #f6b93b;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    width: 85%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.SetCover
+{
+    padding: 20px;
+    width: 50%;
+}
+
+.SetCover img
+{
     width: 100%;
-    height: 600px;
 }
 
-.cover2
+.GetCover
 {
-    display:grid;
-    grid-template-columns: 40% auto;
-    padding: 3%;
-    padding-left: 12%;
-    margin:auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.IsiCover
+{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.Background3
+{
+    background: #FFC312;
+    padding: 20px;
+}
+
+.IsiVideo
+{
+    margin-top: 10px;
+}
+
+.Footer2
+{
+    background: #e58e26;
+    padding: 20px;
+    color: white;
+}
+
+.Footer2 li
+{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.InFooter1
+{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.InFooter1 a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.Brand
+{
+    width: 40%;
+}
+
+.Daftar
+{
+    width: 30%;
+}
+
+.Langganan
+{
+    width: 30%;
+}
+
+.TextBox
+{
     width: 100%;
-    height: 600px;
-}
-
-#gong
-{
-    justify-self: center;
-    padding-top: 20%;
-}
-
-#klanceng
-{
-    justify-self: center;
-    padding-top: 20%;  
-}
-
-#judul1
-{
-    color: #ffffff;
-    text-align: center;
-    background-color:rgba(255, 200, 20, 0.750);
-    padding: 1%;
-    width: 20%;
-    height: 10%;
-    margin: auto;
-    margin-left: 53%;
-    border-radius: 6px;
-    
-}
-
-#judul2
-{
-    color: #ffffff;
-    text-align: center;
-    background-color: rgba(255, 200, 20, 0.750);
-    padding: 1%;
-    width: 20%;
-    height: 10%;
-    margin: auto;
-    margin-left: 53%;
-    border-radius: 6px;
-}
-
-#pendahuluan1
-{
-    width: 70%;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-right: 2%;
-    color: #ffffff;
+    color: white;
+    background: none;
     border: none;
-    background-color: rgba(255, 200, 20, 0.750);
-    position: relative;
-    right: 15%;
-    
-
+    box-sizing: border-box;
+    border-bottom: 2px solid #ffa801;
+    font-size: 15px;
+    padding: 5px;
 }
 
-#pendahuluan2
+.Subscribe
 {
-    width: 70%;
-    padding-bottom: 4%;
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-right: 2%;
-    color: #ffffff;
+    background: #ffa801;
+    border-radius: 5px;
     border: none;
-    background-color: rgba(255, 200, 20, 0.750);
-    position: relative;
-    right: 15%;
-}
-
-.icon1
-{   
-    display:grid;
-    grid-template-columns: 52% auto;
-}
-
-.icon2
-{   
-    display:grid;
-    grid-template-columns: 52% auto;
-}
-
-#back1
-{
-    justify-self: right;
-}
-
-#back2
-{
-    justify-self: right;;
-}
-
-#vid
-{
-    width: 6%;
-    padding: 1%;
-    margin: auto;
-    margin-top: 10%;
-    border-radius: 6px;
-    text-align: center;
     color: white;
-    background-color: rgba(255, 200, 20, 0.750);
-}
-
-.videoyt
-{
-    display:grid;
-    grid-template-columns: 40% auto;
-    padding: 3%;
-    margin:auto;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
     width: 100%;
-    height: 300px;
 }
 
-#judulgong
+.InFooter2
 {
-    width: 25%;
-    padding: 1.5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: 50%;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    border-radius: 6px;
     text-align: center;
-    color: white;
-    background-color: rgba(255, 200, 20, 0.750);
+    margin-top: 20px;
 }
 
-#vidgong
+@media only screen and (max-widht: 720px)
 {
-    width: 80%;
-    padding: 5%;
-    margin-left: 20%;
-}
+    .BodyNavigasi2
+    {
+        display: none;
+    }
+    .BodyNavigasi3
+    {
+        display: block;
+    }
 
+    .Header
+    {
+        display: flex;
+        align-items: center;
+    }
+    .Sabda
+    {
+        position: initial;
+        padding: 10px;
+        font-size: 20px;
+        right: auto;
+        bottom: auto;
+        text-align: center;
+        width: 100%;
+    }
 
-#judulklanceng
-{
-    width: 23%;
-    padding: 1.1%;
-    margin-left: 40%;
-    margin-top: 3%;
-    border-radius: 6px;
-    text-align: center;
-    color: white;
-    background-color: rgba(255, 200, 20, 0.750);
-}
+    .Cover
+    {
+        display: block;
+    }
+    .SetCover
+    {
+        width: 100%;
+        padding: 0;
+    }
+    .GetCover
+    {
+        width: 100%;
+        padding: 0;
+        margin-top: 10px;
+    }
 
-#vidklanceng
-{
-    width: 54%;
-    padding: 5%;
-    margin-left: 20%;
-}
-
-.pembelian
-{
-    width: 10%;
-    padding: 1%;
-    margin: auto;
-    margin-top: 10%;
-    border-radius: 6px;
-    text-align: center;
-    color: white;
-    background-color: rgba(255, 200, 20, 0.750);
-}
-
-#office
-{
-    margin: auto;
-    margin-left: 55.4%;
-    margin-top: 5%;
-}
-
-#isi_office
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-    text-align: center; 
-    margin: auto;
-    margin-right: 17.3%;
-    width: 60%;
-}
-
-#isi_office img
-{
-    position: relative;
-    right: 15.6%;
-}
-
-#whatsapp
-{
-    margin: auto;
-    margin-left: 54.3%;
-    margin-top: 5%;    
-}
-
-#isi_whatsapp
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-    text-align: center; 
-    margin: auto;
-    margin-right: 20%;
-    width: 60%; 
-}
-
-#isi_whatsapp img
-{
-    position: relative;
-    right: 15.5%;
-}
-
-#shopee
-{
-    margin: auto;
-    margin-left: 55.2%;
-    margin-top: 5%;
-}
-
-#isi_shopee
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-    text-align: center; 
-    margin: auto;
-    margin-right: 21.5%;
-    width: 60%;     
-}
-
-#isi_shopee img
-{
-    position: relative;
-    right: 7%;
+    .InFooter1
+    {
+        display: block;
+    }
+    .InFooter1 h1
+    {
+        text-align: center;
+    }
+    .InFooter1 li
+    {
+        text-align: center;
+    }
+    .Brand
+    {
+        width: 100%;
+    }
+    .Daftar
+    {
+        width: 100%;
+    }
+    .Langganan
+    {
+        width: 100%;
+    }
 }
