@@ -7,7 +7,7 @@
 
 .Navigasi
 {
-    background: #fdcb6e;
+    background: rgb(248, 200, 96);
     position: fixed;
     width: 100%;
     font-size: 18px;
@@ -112,7 +112,7 @@
 
 .Background2
 {
-    background: #f9ca24;
+    background: #d39754;
     padding: 20px;
 }
 
@@ -124,7 +124,7 @@
 
 .Cover
 {
-    background: #f6b93b;
+    background: rgb(248, 200, 96);
     color: white;
     border-radius: 5px;
     margin: 0 auto;
@@ -159,7 +159,7 @@
 
 .Background3
 {
-    background: #FFC312;
+    background: #e0953f;
     padding: 20px;
 }
 
@@ -212,21 +212,21 @@
 .TextBox
 {
     width: 100%;
-    color: white;
+    color:white;
     background: none;
     border: none;
     box-sizing: border-box;
-    border-bottom: 2px solid #ffa801;
+    border-bottom: 2px solid #f8f7f6;
     font-size: 15px;
     padding: 5px;
 }
 
 .Subscribe
 {
-    background: #ffa801;
+    background: white;
     border-radius: 5px;
     border: none;
-    color: white;
+    color: black;
     padding: 10px;
     font-size: 15px;
     margin-top: 10px;
